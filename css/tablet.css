@@ -1,0 +1,125 @@
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 768px;
+	}
+
+	.mobile-menu {
+		display: none;
+	}
+
+	.mobile-menu-open {
+		display: none;
+	}
+
+	@media screen and (max-width: 1200px) {
+		.address {
+			margin-left: auto;
+			margin-top: 16px;
+			margin-bottom: 16px;
+		}
+
+		.address-contacts:not(:last-child) {
+			margin-bottom: 12px;
+		}
+	}
+
+	.contacts {
+		font-size: 12px;
+		line-height: 1.16;
+		letter-spacing: 0.04em;
+	}
+
+	.hero {
+		width: 768px;
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab.jpg);
+	}
+
+	@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+		screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+		screen and (min-resolution: 192dpi) and (min-width: 768px),
+		screen and (min-resolution: 2dppx) and (min-width: 768px) {
+		.hero {
+			background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+				url(../images/hero-bg-tabg@2x.jpg);
+		}
+	}
+
+	.hero-title {
+		width: 496px;
+		font-size: 56px;
+		line-height: 1.07;
+		text-transform: none;
+	}
+
+	.hero-btn {
+		margin-top: 36px;
+	}
+
+	@media screen and (max-width: 1200px) {
+		.feauters-list {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 24px;
+			row-gap: 72px;
+		}
+
+		.features-list-title {
+			text-align: start;
+		}
+	}
+
+	.features-list-item {
+		width: calc((100% - 24px) / 2);
+	}
+
+	.team-list {
+		gap: 24px;
+		row-gap: 64px;
+	}
+
+	.customers-list {
+		gap: 24px;
+		justify-content: center;
+	}
+
+	.customers-list-link {
+		width: 168px;
+	}
+
+	.footer-wrapper {
+		display: flex;
+		margin-left: 108px;
+	}
+
+	.footer-logo {
+		display: flex;
+		align-items: start;
+	}
+
+	.footer-logo-description {
+		margin-right: 24px;
+	}
+
+	.footer-media-title {
+		text-align: start;
+	}
+
+	.footer-modal-form {
+		text-align: start;
+		margin-left: 108px;
+	}
+
+	.footer-modal-form-wrapper {
+		display: flex;
+	}
+
+	.footer-modal-form-subscribe-btn {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.footer-form-email {
+		width: 264px;
+        margin-right: 24px;
+	}
+}

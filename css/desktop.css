@@ -1,0 +1,126 @@
+@media screen and (min-width: 1200px) {
+	.container {
+		max-width: 1160px;
+	}
+
+	.page-haeder-container {
+		display: flex;
+		align-items: center;
+		padding: 24px 15px;
+	}
+
+	.address-item {
+		display: flex;
+	}
+
+	.contacts {
+		font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+		margin-right: 40px;
+	}
+
+	.hero {
+		width: 1200px;
+		padding-top: 188px;
+		padding-bottom: 188px;
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+	}
+
+	@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+		screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px),
+		screen and (min-resolution: 192dpi) and (min-width: 1200px),
+		screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+		.hero {
+			background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg@2x.jpg);
+		}
+	}
+
+	.hero-btn {
+		margin-top: 48px;
+	}
+
+	.features {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+
+	.features-list-title {
+        display: flex;
+        align-items: start;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 1.2;
+	}
+
+	.features-list-item {
+		width: 264px;
+	}
+
+	.feauters-list {
+		display: flex;
+		gap: 24px;
+	}
+
+	.features-description {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	.team {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+
+	.customers {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+
+	.customers-list {
+		justify-content: center;
+		gap: 24px;
+	}
+
+	.footer {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.section-footer {
+		display: flex;
+	}
+
+	.footer-wrapper {
+		margin-left: 0;
+	}
+
+	.footer-logo-description {
+		text-align: start;
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+
+	.footer-modal-form-wrapper {
+		display: flex;
+	}
+
+	.footer-modal-form {
+		margin-left: 80px;
+	}
+
+	.footer-social {
+		margin-left: 120px;
+		margin-bottom: 0;
+	}
+
+	.footer-media-title {
+		text-align: start;
+	}
+
+	.modal-form-field {
+		margin-bottom: 0;
+	}
+	
+}

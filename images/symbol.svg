@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-charm" viewBox="0 0 47 32">
+      <path fill="#fff" d="M0 0h46.545v32H0V0z" style="fill:var(--color1, #fff)"/>
+      <path fill="none" stroke="#2e2f42" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.364" d="M1.96 29.154h42.965M1.96 15.615h42.965M1.96 2.077h42.965" style="stroke:var(--color2, #2e2f42)"/>
+    </symbol>
+  </defs>
+</svg>
